@@ -1,0 +1,67 @@
+main {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ion-icon {
+    font-size: 48px;
+}
+
+#settings {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.tempo-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0;
+}
+
+.tempo-buttons ion-button {
+    margin: 0 12px;
+}
+
+.tempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 75%;
+    margin-bottom: 20px;
+}
+
+.tempo .range,
+.tempo .input {
+    width: 100%;
+}
+
+.beats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 75%;
+    margin-bottom: 20px;
+}
+
+.beats .range,
+.beats .input {
+    width: 100%;
+}
+
+.input {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.range::part(label) {
+    font-size: 1.5em;
+    transform: translateY(1em);
+}

@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ion-card {
+  width: 100vw;
+}
+
+.main {
+  height: 100%;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5vh;
+}
+
+.vibration, .latency {
+  transform: translateX(-17px);
+}
+
+.vibration-slider, .latency-slider {
+  width: 60vw;
+}
+
+.vibration-input, .latency-input {
+  width: 10vw;
+  min-width: 70px;
+  text-align: center;
+}
+
+.latency-slider::part(label), .vibration-slider::part(label) {
+    transform: translateY(20px);
+}
+
+ion-card {
+  box-shadow: none;
+}
